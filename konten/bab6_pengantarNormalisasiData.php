@@ -3,10 +3,10 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Learning Database - Materi</title>
-	<link rel="stylesheet" type="text/css" href="/media_ajar/bootstrap/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="/media_ajar/css/main.css">
-	<link rel="icon" href="/media_ajar/image/logo.png">
-	<script type="text/javascript" src="/media_ajar/bootstrap/js/bootstrap.bundle.min.js" ></script>
+	<link rel="stylesheet" type="text/css" href="/media_sonia-main/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="/media_sonia-main/css/main.css">
+	<link rel="icon" href="/media_sonia-main/image/logo.png">
+	<script type="text/javascript" src="/media_sonia-main/bootstrap/js/bootstrap.bundle.min.js" ></script>
 </head>
 <body>
 <?php
@@ -24,7 +24,7 @@ include('../header.php');
 					</div>
 					<div class="subjudul">B. Definisi Normalisasi
 					</div>
-					<img src="/media_ajar/image/35.png" width="70%" alt="">
+					<img src="/media_sonia-main/image/35.png" width="70%" alt="">
 					<div>
 						Normalisasi adalah proses pengorganisasian data dalam basis data. Ini termasuk membuat tabel dan membangun hubungan antara tabel tersebut sesuai dengan aturan yang dirancang untuk melindungi data dan membuat database lebih fleksibel dengan menghilangkan redundansi dan ketergantungan yang tidak konsisten. Data yang berlebihan menghabiskan ruang disk dan menimbulkan masalah pemeliharaan. Jika data yang ada di lebih dari satu tempat harus diubah, data harus diubah dengan cara yang persis sama di semua lokasi. Perubahan alamat pelanggan jauh lebih mudah diterapkan jika data tersebut disimpan hanya di tabel Pelanggan dan tidak di tempat lain di database. Apa itu ketergantungan yang tidak konsisten Meskipun intuitif bagi pengguna untuk melihat di tabel Pelanggan untuk alamat pelanggan tertentu, mungkin tidak masuk akal untuk mencari di sana gaji karyawan yang menelepon pelanggan itu. Gaji karyawan terkait dengan, atau bergantung pada, karyawan tersebut dan karenanya harus dipindahkan ke tabel Karyawan. Ketergantungan yang tidak konsisten dapat membuat data sulit diakses karena jalur untuk menemukan data mungkin hilang atau rusak. Ada beberapa aturan untuk normalisasi database. Setiap aturan disebut bentuk normal. Jika aturan pertama dipatuhi, database dikatakan dalam bentuk normal pertama. Jika tiga aturan pertama dipatuhi, database dianggap dalam bentuk normal ketiga. Meskipun tingkat normalisasi lainnya dimungkinkan, bentuk normal ketiga dianggap sebagai tingkat tertinggi yang diperlukan untuk sebagian besar aplikasi. Seperti banyak aturan dan spesifikasi formal, skenario dunia nyata tidak selalu memungkinkan kepatuhan yang sempurna. Secara umum, normalisasi memerlukan tabel tambahan dan beberapa pelanggan menganggap ini rumit. Jika Kita memutuskan untuk melanggar salah satu dari tiga aturan normalisasi pertama, pastikan aplikasi Kita mengantisipasi masalah apa pun yang dapat terjadi, seperti data yang berlebihan dan dependensi yang tidak konsisten.
 					</div>
@@ -117,13 +117,13 @@ include('../header.php');
 						<div class="row halaman">
 			  		<div class="judul-halaman">Materi Lainnya</div>
 			  		<div class="col-6">
-			  			<a class="halaman-kiri" href="#" aria-label="Previous"  onclick="location='/media_ajar/konten/bab5_mappingER.php'">
+			  			<a class="halaman-kiri" href="#" aria-label="Previous"  onclick="location='/media_sonia-main/konten/bab5_mappingER.php'">
 							  <span aria-hidden="true">&larr;</span>
 							  Sebelumnya
 						  </a>
 			  		</div>
 					  <div class="col-6 geser-kanan">
-							<a class="halaman-kanan" href="#" aria-label="Next"  onclick="location='/media_ajar/konten/bab7_bentukNormal.php'">
+							<a class="halaman-kanan" href="#" aria-label="Next"  onclick="location='/media_sonia-main/konten/bab7_bentukNormal.php'">
 							  Selanjutnya
 							  <span aria-hidden="true">&rarr;</span>
 							</a>

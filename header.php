@@ -1,8 +1,8 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-grey">
   <div class="container-fluid">
     <!-- logo -->
-          <img src="/media_ajar/image/logo1.png" alt="logo" width="35" height="35" class="d-inline-block align-text-top">
-    <a class="navbar-brand" href="#">Learning Database</a>
+          <img class="logoheader" src="/media_sonia-main/image/logo1.png" alt="logo" width="35" height="35" class="d-inline-block align-text-top" onclick="location='/media_sonia-main/index.php'">
+    <a class="navbar-brand" onclick="location='/media_sonia-main/index.php'">Learning Database</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -12,7 +12,7 @@
       		
       	</a>
         <li class="nav-item s-kanan" >
-        	 <a class="nav-link" href="/media_ajar">Home</a>
+        	 <a class="nav-link" href="/media_sonia-main">Home</a>
           <!-- <a class="nav-link active" aria-current="page" href="#">Home</a> -->
         </li>
         <li class="nav-item">
@@ -23,7 +23,7 @@
             Course
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" onclick="location='/media_ajar/index.php'">Learning Database</a></li>
+            <li><a class="dropdown-item" onclick="location='/media_sonia-main/index.php'">Learning Database</a></li>
             <li><a class="dropdown-item" href="#">Learning Java</a></li>
             <li><a class="dropdown-item" href="#">Learning Python</a></li>
             <li><a class="dropdown-item" href="#">Learning C++</a></li>
@@ -33,7 +33,7 @@
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link" onclick="location='/media_ajar/konten/kuis1.php'">Quiz</a>
+          <a class="nav-link" onclick="location='/media_sonia-main/konten/kuis1.php'">Quiz</a>
         </li>
       </ul>
     </div>

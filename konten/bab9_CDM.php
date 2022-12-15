@@ -3,10 +3,10 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Learning Database - Materi</title>
-	<link rel="stylesheet" type="text/css" href="/media_ajar/bootstrap/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="/media_ajar/css/main.css">
-	<link rel="icon" href="/media_ajar/image/logo.png">
-	<script type="text/javascript" src="/media_ajar/bootstrap/js/bootstrap.bundle.min.js" ></script>
+	<link rel="stylesheet" type="text/css" href="/media_sonia-main/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="/media_sonia-main/css/main.css">
+	<link rel="icon" href="/media_sonia-main/image/logo.png">
+	<script type="text/javascript" src="/media_sonia-main/bootstrap/js/bootstrap.bundle.min.js" ></script>
 </head>
 <body>
 <?php
@@ -38,7 +38,7 @@ include('../header.php');
 
 					<div class="subjudul">C. Simbol dan Notasi CDM di Power Designer</div>
 					<div>Pada gambar dibawah ini terdapat symbol dan notasi dalam power designer dan juga terdapat deskripsi bagaimana cara kita membuaut diagram CDM.</div>
-					<img src="/media_ajar/image/65.png" width="70%" alt="">
+					<img src="/media_sonia-main/image/65.png" width="70%" alt="">
 					<div class="subjudul">D. Tipe Data Numerik Power Designer</div>
 					<div>
 						<table class="table">
@@ -285,13 +285,13 @@ include('../header.php');
 					<div class="row halaman">
 		  		<div class="judul-halaman">Materi Lainnya</div>
 		  		<div class="col-6">
-		  			<a class="halaman-kiri" href="#" aria-label="Previous"  onclick="location='/media_ajar/konten/bab8_alatBantuPemodelanKonseptualData.php'">
+		  			<a class="halaman-kiri" href="#" aria-label="Previous"  onclick="location='/media_sonia-main/konten/bab8_alatBantuPemodelanKonseptualData.php'">
 						  <span aria-hidden="true">&larr;</span>
 						  Sebelumnya
 					  </a>
 		  		</div>
 				  <div class="col-6 geser-kanan">
-						<a class="halaman-kanan" href="#" aria-label="Next"  onclick="location='/media_ajar/konten/bab10_membuatDiagramCDM.php'">
+						<a class="halaman-kanan" href="#" aria-label="Next"  onclick="location='/media_sonia-main/konten/bab10_membuatDiagramCDM.php'">
 						  Selanjutnya
 						  <span aria-hidden="true">&rarr;</span>
 						</a>

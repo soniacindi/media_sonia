@@ -3,10 +3,10 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Learning Database - Materi</title>
-	<link rel="stylesheet" type="text/css" href="/media_ajar/bootstrap/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="/media_ajar/css/main.css">
-	<link rel="icon" href="/media_ajar/image/logo.png">
-	<script type="text/javascript" src="/media_ajar/bootstrap/js/bootstrap.bundle.min.js" ></script>
+	<link rel="stylesheet" type="text/css" href="/media_sonia-main/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="/media_sonia-main/css/main.css">
+	<link rel="icon" href="/media_sonia-main/image/logo.png">
+	<script type="text/javascript" src="/media_sonia-main/bootstrap/js/bootstrap.bundle.min.js" ></script>
 </head>
 <body>
 <?php
@@ -63,8 +63,8 @@ include('../header.php');
 					</div>
 					Sistem database adalah sistem pencatatan berbasis komputer yang sangat baik. Kumpulan data, biasa disebut database, berisi informasi tentang perusahaan tertentu. Ini memelihara setiap informasi yang mungkin diperlukan untuk proses pengambilan keputusan yang terlibat dalam manajemen organisasi itu. Itu juga dapat didefinisikan sebagai kumpulan data yang saling terkait yang disimpan bersama untuk melayani beberapa aplikasi, data disimpan sehingga tidak tergantung pada program yang menggunakan data tersebut. Pendekatan generik dan terkontrol digunakan untuk menambahkan data baru dan memodifikasi dan mengambil data yang ada dalam database. Data terstruktur sehingga memberikan dasar untuk pengembangan aplikasi di masa depan.
 				</div>
-				<img src="/media_ajar/image/1.png" width="60%" alt="">
-				<img src="/media_ajar/image/2.png" width="60%" alt="">
+				<img src="/media_sonia-main/image/1.png" width="60%" alt="">
+				<img src="/media_sonia-main/image/2.png" width="60%" alt="">
 				<div class="subjudul">
 					C. Properti Basis Data
 				</div>
@@ -157,7 +157,7 @@ include('../header.php');
 		  		<div class="col-6">
 		  		</div>
 				  <div class="col-6 geser-kanan">
-						<a class="halaman-kanan" href="#" aria-label="Next"  onclick="location='/media_ajar/konten/bab2_strukturHierarkiBasisData.php'">
+						<a class="halaman-kanan" href="#" aria-label="Next"  onclick="location='/media_sonia-main/konten/bab2_strukturHierarkiBasisData.php'">
 						  Selanjutnya
 						  <span aria-hidden="true">&rarr;</span>
 						</a>

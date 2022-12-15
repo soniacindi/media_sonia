@@ -3,10 +3,10 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Learning Database - Materi</title>
-	<link rel="stylesheet" type="text/css" href="/media_ajar/bootstrap/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="/media_ajar/css/main.css">
-	<link rel="icon" href="/media_ajar/image/logo.png">
-	<script type="text/javascript" src="/media_ajar/bootstrap/js/bootstrap.bundle.min.js" ></script>
+	<link rel="stylesheet" type="text/css" href="/media_sonia-main/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="/media_sonia-main/css/main.css">
+	<link rel="icon" href="/media_sonia-main/image/logo.png">
+	<script type="text/javascript" src="/media_sonia-main/bootstrap/js/bootstrap.bundle.min.js" ></script>
 </head>
 <body>
 <?php
@@ -32,8 +32,8 @@ include('../header.php');
 							<li>Setiap set kolom harus memiliki nilai unik. </li>
 							<li>Ini berisi nilai atom karena tabel tidak dapat menampung banyak nilai.</li>
 						</ol>
-						<img src="/media_ajar/image/36.png" width="70%" alt="">
-						<img src="/media_ajar/image/37.png" width="70%" alt="">
+						<img src="/media_sonia-main/image/36.png" width="70%" alt="">
+						<img src="/media_sonia-main/image/37.png" width="70%" alt="">
 					</div>
 
 					<div class="subjudul">2. Second Normal Form (2NF)</div>
@@ -45,9 +45,9 @@ include('../header.php');
 						<li>Aturan utama 2NF adalah Tidak ada atribut non-prima yang bergantung pada subset yang tepat dari setiap kunci kandidat tabel. </li>
 						<li>Atribut yang bukan merupakan bagian dari candidate key disebut atribut non-prime.</li>
 					</ol>
-					<img src="/media_ajar/image/38.png" width="70%" alt="">
-					<img src="/media_ajar/image/39.png" width="70%" alt="">
-					<img src="/media_ajar/image/40.png" width="70%" alt="">
+					<img src="/media_sonia-main/image/38.png" width="70%" alt="">
+					<img src="/media_sonia-main/image/39.png" width="70%" alt="">
+					<img src="/media_sonia-main/image/40.png" width="70%" alt="">
 
 					<div class="subjudul">3. Third Normal Form (3NF)</div>
 					Suatu relasi akan berada dalam 3NF jika berada dalam 2NF dan tidak ada ketergantungan transisi. Karakteristik Third Normal Form (3NF) :
@@ -59,9 +59,9 @@ include('../header.php');
 						</li>3NF digunakan untuk mengurangi duplikasi data. Hal ini juga digunakan untuk mencapai integritas data.</li>
 						<li>Jika tidak ada ketergantungan transitif untuk atribut non-prima, maka relasi tersebut harus dalam bentuk normal ketiga.</li>
 					</ol>
-					<img src="/media_ajar/image/41.png" width="70%" alt="">
-					<img src="/media_ajar/image/42.png" width="70%" alt="">
-					<img src="/media_ajar/image/43.png" width="70%" alt="">
+					<img src="/media_sonia-main/image/41.png" width="70%" alt="">
+					<img src="/media_sonia-main/image/42.png" width="70%" alt="">
+					<img src="/media_sonia-main/image/43.png" width="70%" alt="">
 
 					<div class="subjudul">4. BCNF (Boyce – Codd Normal Form)</div>
 					Karakteristik dari Boyce – Codd Normal Form (BCNF) :
@@ -73,10 +73,10 @@ include('../header.php');
 						<li>Jika setiap determinan adalah kunci kandidat, maka dikatakan BCNF.</li>
 						<li>Candidate key memiliki kemampuan untuk menjadi primary key. Ini adalah kolom dalam tabel.</li>
 					</ol>
-					<img src="/media_ajar/image/44.png" width="70%" alt="">
-					<img src="/media_ajar/image/45.png" width="70%" alt="">
-					<img src="/media_ajar/image/46.png" width="70%" alt="">
-					<img src="/media_ajar/image/47.png" width="70%" alt="">
+					<img src="/media_sonia-main/image/44.png" width="70%" alt="">
+					<img src="/media_sonia-main/image/45.png" width="70%" alt="">
+					<img src="/media_sonia-main/image/46.png" width="70%" alt="">
+					<img src="/media_sonia-main/image/47.png" width="70%" alt="">
 
 					<div class="subjudul">5. Fourth Normal Form (4NF)</div>
 					Suatu relasi akan berada dalam 4NF jika berada dalam bentuk normal Boyce Codd dan tidak memiliki ketergantungan multi-nilai. Karakteristik dari Fourth Normal Form (4NF) :
@@ -88,9 +88,9 @@ include('../header.php');
 						<li>Suatu relasi akan berada dalam 4NF jika berada dalam bentuk normal Boyce Codd dan tidak memiliki ketergantungan multi-nilai. </li>
 						<li>Untuk dependensi A → B, jika untuk satu nilai A, ada beberapa nilai B, maka relasinya akan menjadi dependensi multi-nilai.</li>
 					</ol>
-					<img src="/media_ajar/image/48.png" width="70%" alt="">
-					<img src="/media_ajar/image/49.png" width="70%" alt="">
-					<img src="/media_ajar/image/50.png" width="70%" alt="">
+					<img src="/media_sonia-main/image/48.png" width="70%" alt="">
+					<img src="/media_sonia-main/image/49.png" width="70%" alt="">
+					<img src="/media_sonia-main/image/50.png" width="70%" alt="">
 
 					<div class="subjudul">6.	Fifth Normal Form (5NF)</div>
 					Sebuah relasi berada dalam 5NF. Jika dalam 4NF dan tidak mengandung ketergantungan bergabung, bergabung harus lossless. Karakteristik dari Fifth Normal Form (5NF) :
@@ -103,10 +103,10 @@ include('../header.php');
 						<li>Suatu relasi berada dalam 5NF jika berada dalam 4NF dan tidak mengandung ketergantungan join dan join harus lossless.</li>
 						<li>5NF terpenuhi ketika semua tabel dipecah menjadi tabel sebanyak mungkin untuk menghindari redundansi.</li>
 					</ol>
-					<img src="/media_ajar/image/51.png" width="70%" alt="">
-					<img src="/media_ajar/image/52.png" width="70%" alt="">
-					<img src="/media_ajar/image/53.png" width="70%" alt="">
-					<img src="/media_ajar/image/54.png" width="70%" alt="">
+					<img src="/media_sonia-main/image/51.png" width="70%" alt="">
+					<img src="/media_sonia-main/image/52.png" width="70%" alt="">
+					<img src="/media_sonia-main/image/53.png" width="70%" alt="">
+					<img src="/media_sonia-main/image/54.png" width="70%" alt="">
 
 					<div class="subjudul">7.	DKNF (Domain Key Normal Form)</div>
 					Karakteristik dari DKNF (Domain Key Normal Form) :
@@ -120,13 +120,13 @@ include('../header.php');
 					<div class="row halaman">
 		  		<div class="judul-halaman">Materi Lainnya</div>
 		  		<div class="col-6">
-		  			<a class="halaman-kiri" href="#" aria-label="Previous"  onclick="location='/media_ajar/konten/bab6_pengantarNormalisasiData.php'">
+		  			<a class="halaman-kiri" href="#" aria-label="Previous"  onclick="location='/media_sonia-main/konten/bab6_pengantarNormalisasiData.php'">
 						  <span aria-hidden="true">&larr;</span>
 						  Sebelumnya
 					  </a>
 		  		</div>
 				  <div class="col-6 geser-kanan">
-						<a class="halaman-kanan" href="#" aria-label="Next"  onclick="location='/media_ajar/konten/bab8_alatBantuPemodelanKonseptualData.php'">
+						<a class="halaman-kanan" href="#" aria-label="Next"  onclick="location='/media_sonia-main/konten/bab8_alatBantuPemodelanKonseptualData.php'">
 						  Selanjutnya
 						  <span aria-hidden="true">&rarr;</span>
 						</a>

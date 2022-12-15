@@ -19,13 +19,25 @@ body{
 .kotak{
 	background-color: #fafafa;
 	min-height: 1000px;
-	margin: 100px 0px 60px 60px; 
+	margin: 100px 10px 10px 10px; 
 /*	searah jarum jam*/
 	border-radius: 20px;
 	padding: 78px;
 	box-shadow: 0px 2px 5px #000;
 	text-align: justify;
 }
+
+.kotak-kuis{
+	background-color: #fafafa;
+	min-height: 1000px;
+	margin: 100px 10px 10px 10px; 
+/*	searah jarum jam*/
+	border-radius: 20px;
+	padding: 10px;
+	box-shadow: 0px 2px 5px #000;
+	text-align: justify;
+}
+
 
 .judul{
 	font-style: 'Patrick Hand', cursive;
@@ -147,8 +159,8 @@ body{
 
 .kotakbab{
 	min-height: 800px;
-	margin: 100px 10px 60px 190px; 
-	background-image: url("/media_ajar/image/login.jpg");
+	margin: 100px 10px 60px 10px; 
+	background-image: url("/media_sonia-main/image/login.jpg");
 	background-size: 1200px 1000px;
 	border-radius: 70px;
 	box-shadow: 0px 2px 5px #000;
@@ -158,9 +170,10 @@ body{
 
 /*@font-face{
 	font-family: 'lobster';
-	src: ulr('/media_ajar/font/Courgette/Lobster-Regular.ttf');
+	src: ulr('/media_sonia-main/font/Courgette/Lobster-Regular.ttf');
 }*/
 .judulbab{
+	padding: 0 5px;
 	text-align: center;
 	font-family: 'Lobster', cursive;
 	font-size: 65px;
@@ -190,270 +203,44 @@ body{
 }
 
 .homesemua{
-	background-image: url("/media_ajar/image/bghome1.jpg");
+	background-image: url("/media_sonia-main/image/bghome1.jpg");
 
 }
 
 .square{
-	width: 60%;
-	margin: 50px 200px;
-	display: grid;
-	grid-template-columns: 300px 50px 300px;
-	grid-template-rows: 100px 20px 100px 20px 100px 20px 100px 20px 100px;
+	margin: 30px 10px;
+	padding: 0 40px;
 }
 
-.item1{
+.item-materi{
 /*	display: flex;*/
 	justify-content: center;
-	background: rgb(34,193,195);
+	background: rgb(48, 40, 43);
 	background: linear-gradient(90deg, rgba(34,193,195,1) 0%, rgba(71,107,107,1) 100%);
 	border-radius: 10px;
 	box-shadow: 0px 2px 5px #000;
 	border-right: solid 15px #30282b;
-	margin-right: 20px;
+	margin: 20px auto;
+	min-height: 100px;
+	max-width: 350px;
 	text-align: center;
 	font-family: 'Patrick Hand', cursive;
 	font-size: 25px;
-	padding-top: 20px;
+	padding: 10px;
 	color: lightyellow;
 	cursor: pointer;
+
 }
 
-.item1:hover{
-	transition: 1.0s;
+.item-materi:hover{
+	transition: 1s;
 	background: rgb(48, 40, 43);
-  background: linear-gradient(90deg, rgba(48, 40, 43,1) 0%, rgba(34, 36, 34,1) 100%);
 	color: white;
 }
 
-.item7{
-	display: flex;
-	justify-content: center;
-	background: rgb(34,193,195);
-	background: linear-gradient(90deg, rgba(34,193,195,1) 0%, rgba(71,107,107,1) 100%);
-	border-radius: 10px;
-	box-shadow: 0px 2px 5px #000;
-	border-right: solid 15px #30282b;
-	margin-right: 20px;
-	text-align: center;
-	font-family: 'Patrick Hand', cursive;
-	color: lightyellow;
-	cursor: pointer;
-	font-size: 25px;
-	padding-top: 20px;
-	text-align: center;
-}
-
-.item7:hover{
-	transition: 1.0s;
-	background: rgb(48, 40, 43);
-  background: linear-gradient(90deg, rgba(48, 40, 43,1) 0%, rgba(34, 36, 34,1) 100%);
-	color: white;
-}
-
-.item3{
-	display: flex;
-	justify-content: center;
-	background: rgb(34,193,195);
-	background: linear-gradient(90deg, rgba(34,193,195,1) 0%, rgba(71,107,107,1) 100%);
-	border-radius: 10px;
-	box-shadow: 0px 2px 5px #000;
-	border-right: solid 15px #30282b;
-	margin-right: 20px;
-	text-align: center;
-	font-family: 'Patrick Hand', cursive;
-	color: lightyellow;
-	cursor: pointer;
-	font-size: 25px;
-	padding-top: 20px;
-/*	border-radius: 30px;*/
-}
-
-.item3:hover{
-	transition: 1.0s;
-	background: rgb(48, 40, 43);
-  background: linear-gradient(90deg, rgba(48, 40, 43,1) 0%, rgba(34, 36, 34,1) 100%);
-	color: white;
-}
-
-.item13{
-	display: flex;
-	justify-content: center;
-	background: rgb(34,193,195);
-	background: linear-gradient(90deg, rgba(34,193,195,1) 0%, rgba(71,107,107,1) 100%);
-	border-radius: 10px;
-	box-shadow: 0px 2px 5px #000;
-	border-right: solid 15px #30282b;
-	margin-right: 20px;
-	text-align: center;
-	font-family: 'Patrick Hand', cursive;
-	color: lightyellow;
-	cursor: pointer;
-	font-size: 25px;
-	padding-top: 20px;
-/*	border-radius: 30px;*/
-}
-
-.item13:hover{
-	transition: 1.0s;
-	background: rgb(48, 40, 43);
-  background: linear-gradient(90deg, rgba(48, 40, 43,1) 0%, rgba(34, 36, 34,1) 100%);
-	color: white;
-}
-
-.item19{
-	display: flex;
-	justify-content: center;
-	background: rgb(34,193,195);
-	background: linear-gradient(90deg, rgba(34,193,195,1) 0%, rgba(71,107,107,1) 100%);
-	border-radius: 10px;
-	box-shadow: 0px 2px 5px #000;
-	border-right: solid 15px #30282b;
-	margin-right: 20px;
-	text-align: center;
-	font-family: 'Patrick Hand', cursive;
-	color: lightyellow;
-	cursor: pointer;
-	font-size: 25px;
-	padding-top: 20px;
-/*	border-radius: 30px;*/
-}
-
-.item19:hover{
-	transition: 1.0s;
-	background: rgb(48, 40, 43);
-  background: linear-gradient(90deg, rgba(48, 40, 43,1) 0%, rgba(34, 36, 34,1) 100%);
-	color: white;
-}
-
-.item25{
-	display: flex;
-	justify-content: center;
-	background: rgb(34,193,195);
-	background: linear-gradient(90deg, rgba(34,193,195,1) 0%, rgba(71,107,107,1) 100%);
-	border-radius: 10px;
-	box-shadow: 0px 2px 5px #000;
-	border-right: solid 15px #30282b;
-	margin-right: 20px;
-	text-align: center;
-	font-family: 'Patrick Hand', cursive;
-	color: lightyellow;
-	cursor: pointer;
-	font-size: 25px;
-	padding-top: 20px;
-/*	border-radius: 30px;*/
-}
-
-.item25:hover{
-	transition: 1.0s;
-	background: rgb(48, 40, 43);
-  background: linear-gradient(90deg, rgba(48, 40, 43,1) 0%, rgba(34, 36, 34,1) 100%);
-	color: white;
-}
-
-.item9{
-	display: flex;
-	justify-content: center;
-	background: rgb(34,193,195);
-	background: linear-gradient(90deg, rgba(34,193,195,1) 0%, rgba(71,107,107,1) 100%);
-	border-radius: 10px;
-	box-shadow: 0px 2px 5px #000;
-	border-right: solid 15px #30282b;
-	margin-right: 20px;
-	text-align: center;
-	font-family: 'Patrick Hand', cursive;
-	color: lightyellow;
-	cursor: pointer;
-	font-size: 25px;
-	padding-top: 20px;
-/*	border-radius: 30px;*/
-}
-
-.item9:hover{
-	transition: 1.0s;
-	background: rgb(48, 40, 43);
-  background: linear-gradient(90deg, rgba(48, 40, 43,1) 0%, rgba(34, 36, 34,1) 100%);
-	color: white;
-}
-
-.item15{
-	display: flex;
-	justify-content: center;
-	background: rgb(34,193,195);
-	background: linear-gradient(90deg, rgba(34,193,195,1) 0%, rgba(71,107,107,1) 100%);
-	border-radius: 10px;
-	box-shadow: 0px 2px 5px #000;
-	border-right: solid 15px #30282b;
-	margin-right: 20px;
-	text-align: center;
-	font-family: 'Patrick Hand', cursive;
-	color: lightyellow;
-	cursor: pointer;
-	font-size: 25px;
-	padding-top: 20px;
-/*	border-radius: 30px;*/
-}
-
-.item15:hover{
-	transition: 1.0s;
-	background: rgb(48, 40, 43);
-  background: linear-gradient(90deg, rgba(48, 40, 43,1) 0%, rgba(34, 36, 34,1) 100%);
-	color: white;
-}
-
-.item21{
-	display: flex;
-	justify-content: center;
-	background: rgb(34,193,195);
-	background: linear-gradient(90deg, rgba(34,193,195,1) 0%, rgba(71,107,107,1) 100%);
-	border-radius: 10px;
-	box-shadow: 0px 2px 5px #000;
-	border-right: solid 15px #30282b;
-	margin-right: 20px;
-	text-align: center;
-	font-family: 'Patrick Hand', cursive;
-	color: lightyellow;
-	cursor: pointer;
-	font-size: 25px;
-	padding-top: 20px;
-/*	border-radius: 30px;*/
-}
-
-.item21:hover{
-	transition: 1.0s;
-	background: rgb(48, 40, 43);
-  background: linear-gradient(90deg, rgba(48, 40, 43,1) 0%, rgba(34, 36, 34,1) 100%);
-	color: white;
-}
-
-.item27{
-	display: flex;
-	justify-content: center;
-	background: rgb(34,193,195);
-	background: linear-gradient(90deg, rgba(34,193,195,1) 0%, rgba(71,107,107,1) 100%);
-	border-radius: 10px;
-	box-shadow: 0px 2px 5px #000;
-	border-right: solid 15px #30282b;
-	margin-right: 20px;
-	text-align: center;
-	font-family: 'Patrick Hand', cursive;
-	color: lightyellow;
-	cursor: pointer;
-	font-size: 25px;
-	padding-top: 20px;
-/*	border-radius: 30px;*/
-}
-
-.item27:hover{
-	transition: 1.0s;
-	background: rgb(48, 40, 43);
-  background: linear-gradient(90deg, rgba(48, 40, 43,1) 0%, rgba(34, 36, 34,1) 100%);
-	color: white;
-}
 
 .game-quiz-container{
-    width: 40rem;
-    height: 30rem;
+	min-width: 100%;
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -702,3 +489,11 @@ input[type=radio]:checked ~ .option {
     from {opacity: 0;}
     to {opacity: 1;}
   }
+
+.logoheader{
+    cursor: pointer;
+}
+
+.navbar-brand{
+    cursor: pointer;
+}

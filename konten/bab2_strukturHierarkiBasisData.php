@@ -3,10 +3,10 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Learning Database - Materi</title>
-	<link rel="stylesheet" type="text/css" href="/media_ajar/bootstrap/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="/media_ajar/css/main.css">
-	<link rel="icon" href="/media_ajar/image/logo.png">
-	<script type="text/javascript" src="/media_ajar/bootstrap/js/bootstrap.bundle.min.js" ></script>
+	<link rel="stylesheet" type="text/css" href="/media_sonia-main/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="/media_sonia-main/css/main.css">
+	<link rel="icon" href="/media_sonia-main/image/logo.png">
+	<script type="text/javascript" src="/media_sonia-main/bootstrap/js/bootstrap.bundle.min.js" ></script>
 </head>
 <body>
 <?php
@@ -72,7 +72,7 @@ include('../header.php');
 				Beberapa majikan mungkin lebih memilih kandidat yang memiliki gelar master. Program gelar master umumnya ditawarkan di bidang teknologi informasi sebagai gelar Master of Science (MS) dan mungkin menawarkan konsentrasi khusus di bidang-bidang seperti desain basis data atau desain dan administrasi basis data.
 				<div class="subjudul">D. Struktur Hierarki Basis Data
 				</div>	
-				<img src="/media_ajar/image/3.png" width="70%" alt="">
+				<img src="/media_sonia-main/image/3.png" width="70%" alt="">
 				<div>
 					Data adalah sumber daya utama dari sebuah organisasi. Data yang disimpan dalam sistem komputer membentuk hierarki yang membentang dari satu bit ke basis data, entitas pencatatan utama perusahaan. Setiap anak tangga yang lebih tinggi dari hierarki ini diatur dari komponen di bawahnya. Pada struktur hierarki basis data terdapat 3 elemen yang meliputi:
 				</div>		
@@ -90,13 +90,13 @@ include('../header.php');
 				<div class="row halaman">
 		  		<div class="judul-halaman">Materi Lainnya</div>
 		  		<div class="col-6">
-		  			<a class="halaman-kiri" href="#" aria-label="Previous"  onclick="location='/media_ajar/konten/bab1_konsepBasisData.php'">
+		  			<a class="halaman-kiri" href="#" aria-label="Previous"  onclick="location='/media_sonia-main/konten/bab1_konsepBasisData.php'">
 						  <span aria-hidden="true">&larr;</span>
 						  Sebelumnya
 					  </a>
 		  		</div>
 				  <div class="col-6 geser-kanan">
-						<a class="halaman-kanan" href="#" aria-label="Next"  onclick="location='/media_ajar/konten/bab3_modelHierarkiBasisData.php'">
+						<a class="halaman-kanan" href="#" aria-label="Next"  onclick="location='/media_sonia-main/konten/bab3_modelHierarkiBasisData.php'">
 						  Selanjutnya
 						  <span aria-hidden="true">&rarr;</span>
 						</a>

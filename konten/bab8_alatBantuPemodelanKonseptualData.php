@@ -3,10 +3,10 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Learning Database - Materi</title>
-	<link rel="stylesheet" type="text/css" href="/media_ajar/bootstrap/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="/media_ajar/css/main.css">
-	<link rel="icon" href="/media_ajar/image/logo.png">
-	<script type="text/javascript" src="/media_ajar/bootstrap/js/bootstrap.bundle.min.js" ></script>
+	<link rel="stylesheet" type="text/css" href="/media_sonia-main/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="/media_sonia-main/css/main.css">
+	<link rel="icon" href="/media_sonia-main/image/logo.png">
+	<script type="text/javascript" src="/media_sonia-main/bootstrap/js/bootstrap.bundle.min.js" ></script>
 </head>
 <body>
 <?php
@@ -64,24 +64,24 @@ include('../header.php');
 						<li>
 						
 					A requirements model (RQM) - RQM ini membantu Kita menganalisis segala jenis persyaratan tertulis dan menghubungkannya dengan pengguna dan grup yang akan menerapkannya dan dengan objek desain dalam model lain. Kita dapat menggunakan RQM untuk mewakili dokumen terstruktur (misalnya spesifikasi fungsional, rencana pengujian, tujuan bisnis, dll.) dan hierarki impor dan ekspor persyaratan sebagai dokumen MS Word. Ekstensi file: .rqm Cadangan: .rqb
-					<div><img src="/media_ajar/image/55.png" width="70%" alt=""></div>
+					<div><img src="/media_sonia-main/image/55.png" width="70%" alt=""></div>
 				</li>
 						<li>
 							An enterprise architecture model (EAM) - EAM ini membantu Kita menganalisis dan mendokumentasikan organisasi Kita, kemampuan dan prosesnya, aplikasi dan sistem yang mendukungnya, dan arsitektur fisik tempat penerapannya. Ekstensi file: .eam Cadangan: .eab
-							<div><img src="/media_ajar/image/56.png" width="70%" alt=""></div>
+							<div><img src="/media_sonia-main/image/56.png" width="70%" alt=""></div>
 						</li>
 						<li>A business process model (BPM) - BPM ini membantu Kita mengidentifikasi, menjelaskan, dan menguraikan proses bisnis. Kita dapat menganalisis sistem Kita pada berbagai tingkat detail, dan secara alternatif berfokus pada aliran kontrol (urutan eksekusi) atau aliran data (pertukaran data). SAP® PowerDesigner® mendukung Analisis, SOA, DFD, SAP® Solution Manager, BPMN (termasuk untuk SAP BPM), dan bahasa proses BPEL, dan simulasi proses melalui SIMUL8. Ekstensi file: .bpm Cadangan: .bpb
-							<div><img src="/media_ajar/image/57.png" width="70%" alt=""></div>
+							<div><img src="/media_sonia-main/image/57.png" width="70%" alt=""></div>
 						</li>
 						<li>A conceptual data model (CDM) - CDM ini membantu Kita menganalisis struktur konseptual sistem informasi, untuk mengidentifikasi entitas utama yang akan diwakili, atributnya, dan hubungan di antara mereka. CDM lebih abstrak daripada model data logis (LDM) atau fisik (PDM). Ekstensi file: .cdm Cadangan: .cdb
-							<div><img src="/media_ajar/image/58.png" width="70%" alt=""></div></li>
-						<li>A logical data model (LDM) - LDM ini membantu Kita menganalisis struktur sistem informasi, terlepas dari implementasi basis data fisik tertentu. LDM telah memigrasikan pengidentifikasi entitas dan kurang abstrak daripada model data konseptual (CDM), tetapi tidak memungkinkan Kita untuk memodelkan tampilan, indeks, dan elemen lain yang tersedia dalam model data fisik (PDM) yang lebih konkret. Ekstensi file: .ldm Cadangan: .ldb<div><img src="/media_ajar/image/59.png" width="70%" alt=""></div></li>
+							<div><img src="/media_sonia-main/image/58.png" width="70%" alt=""></div></li>
+						<li>A logical data model (LDM) - LDM ini membantu Kita menganalisis struktur sistem informasi, terlepas dari implementasi basis data fisik tertentu. LDM telah memigrasikan pengidentifikasi entitas dan kurang abstrak daripada model data konseptual (CDM), tetapi tidak memungkinkan Kita untuk memodelkan tampilan, indeks, dan elemen lain yang tersedia dalam model data fisik (PDM) yang lebih konkret. Ekstensi file: .ldm Cadangan: .ldb<div><img src="/media_sonia-main/image/59.png" width="70%" alt=""></div></li>
 						<li>A physical data model (PDM) - PDM ini membantu Kita menganalisis tabel, tampilan, dan objek lain dalam database, termasuk objek multidimensi yang diperlukan untuk penyimpanan data. PDM lebih konkret daripada model data konseptual (CDM) atau logis (LDM). Kita dapat memodelkan, merekayasa balik, dan menghasilkan untuk semua DBMS paling populer. Ekstensi file: .pdm Cadangan: .pdb
-							<img src="/media_ajar/image/60.png" width="70%" alt=""></li>
-						<li>A data movement model (DMM) - DDM ini memberikan pandangan global tentang pergerakan informasi di organisasi Kita. Kita dapat menganalisis dan mendokumentasikan dari mana data Kita berasal, ke mana pindahnya, dan bagaimana data tersebut diubah dalam perjalanan, termasuk replikasi dan ETL. Ekstensi file: .dmm Cadangan: .dmb<img src="/media_ajar/image/61.png" width="70%" alt=""></li>
-						<li>An object-oriented model (OOM) - OOM ini membantu Kita menganalisis sistem informasi melalui kasus penggunaan, analisis struktural dan perilaku, dan dalam hal penerapan, menggunakan Unified Modeling Language (UML). Kita dapat memodelkan, merekayasa balik, dan menghasilkan untuk Java, .NET, dan bahasa lainnya. Ekstensi file: .oom Cadangan: .oob<img src="/media_ajar/image/62.png" width="70%" alt=""></li>
-						<li>An XML model (XSM) - XSM ini membantu Kita menganalisis file XML Schema Definition (.XSD), Document Type Definition (.DTD) atau XML-Data Reduced (.XDR). Kita dapat memodelkan, merekayasa balik, dan menghasilkan setiap format file ini.<img src="/media_ajar/image/63.png" width="70%" alt=""></li>
-						<li>A free model (FEM) - FEM ini menyediakan lingkungan bebas konteks untuk memodelkan segala jenis objek atau sistem. Kita dapat menggunakannya untuk membuat sketsa visualisasi sederhana atau membuat bentuk model yang sama sekali baru dengan mendefinisikan konsep dan simbol grafis Kita sendiri melalui file ekstensi. Lihat Model Bebas (FEM). Ekstensi file: .fem Cadangan: .feb<img src="/media_ajar/image/64.png" width="70%" alt=""></li>
+							<img src="/media_sonia-main/image/60.png" width="70%" alt=""></li>
+						<li>A data movement model (DMM) - DDM ini memberikan pandangan global tentang pergerakan informasi di organisasi Kita. Kita dapat menganalisis dan mendokumentasikan dari mana data Kita berasal, ke mana pindahnya, dan bagaimana data tersebut diubah dalam perjalanan, termasuk replikasi dan ETL. Ekstensi file: .dmm Cadangan: .dmb<img src="/media_sonia-main/image/61.png" width="70%" alt=""></li>
+						<li>An object-oriented model (OOM) - OOM ini membantu Kita menganalisis sistem informasi melalui kasus penggunaan, analisis struktural dan perilaku, dan dalam hal penerapan, menggunakan Unified Modeling Language (UML). Kita dapat memodelkan, merekayasa balik, dan menghasilkan untuk Java, .NET, dan bahasa lainnya. Ekstensi file: .oom Cadangan: .oob<img src="/media_sonia-main/image/62.png" width="70%" alt=""></li>
+						<li>An XML model (XSM) - XSM ini membantu Kita menganalisis file XML Schema Definition (.XSD), Document Type Definition (.DTD) atau XML-Data Reduced (.XDR). Kita dapat memodelkan, merekayasa balik, dan menghasilkan setiap format file ini.<img src="/media_sonia-main/image/63.png" width="70%" alt=""></li>
+						<li>A free model (FEM) - FEM ini menyediakan lingkungan bebas konteks untuk memodelkan segala jenis objek atau sistem. Kita dapat menggunakannya untuk membuat sketsa visualisasi sederhana atau membuat bentuk model yang sama sekali baru dengan mendefinisikan konsep dan simbol grafis Kita sendiri melalui file ekstensi. Lihat Model Bebas (FEM). Ekstensi file: .fem Cadangan: .feb<img src="/media_sonia-main/image/64.png" width="70%" alt=""></li>
 						<li>The glossary model (GLM) - GLM ini membantu Kita menangkap dan mengatur terminologi yang akan digunakan untuk penamaan objek model Kita. Administrator menyebarkan glosarium, dan pengguna mengaktifkannya di model mereka untuk memberikan pelengkapan otomatis untuk nama objek dan pemeriksaan model guna memastikan kepatuhan. Glosarium muncul di tab Glosarium Browser dan pembaruan didorong ke pengguna setiap kali mereka terhubung ke repositori, atau sesuai permintaan. Hanya satu glosarium yang diizinkan per repositori. Ekstensi file: .glm Cadangan: .geb
 						<li>A multimodel report (MMR) - MMR adalah laporan PowerDesigner yang dapat mendokumentasikan sejumlah model bersama-sama dan memperlihatkan tautan di antara mereka. Untuk membuat laporan seperti itu, Kita harus memiliki setidaknya satu model yang terbuka di ruang kerja, dan Kita dapat menambahkan model tambahan kapan saja. Ekstensi file: .mmr Cadangan: .bmr</li>
 					</ol>
@@ -161,13 +161,13 @@ include('../header.php');
 					<div class="row halaman">
 		  		<div class="judul-halaman">Materi Lainnya</div>
 		  		<div class="col-6">
-		  			<a class="halaman-kiri" href="#" aria-label="Previous"  onclick="location='/media_ajar/konten/bab7_bentukNormal.php'">
+		  			<a class="halaman-kiri" href="#" aria-label="Previous"  onclick="location='/media_sonia-main/konten/bab7_bentukNormal.php'">
 						  <span aria-hidden="true">&larr;</span>
 						  Sebelumnya
 					  </a>
 		  		</div>
 				  <div class="col-6 geser-kanan">
-						<a class="halaman-kanan" href="#" aria-label="Next"  onclick="location='/media_ajar/konten/bab9_CDM.php'">
+						<a class="halaman-kanan" href="#" aria-label="Next"  onclick="location='/media_sonia-main/konten/bab9_CDM.php'">
 						  Selanjutnya
 						  <span aria-hidden="true">&rarr;</span>
 						</a>
