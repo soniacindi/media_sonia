@@ -44,7 +44,7 @@ include('../header.php');
           
             <div class="game-details-container">
                 <h1>Skor : <span id="player-score"></span> / 10</h1>
-                <h1> Pertanyaan : <span id="question-number"></span> / 10</h1>
+                <h1>Pertanyaan : <span id="question-number"></span> / 10</h1>
             </div>
 
             <div class="game-question-container">
@@ -88,7 +88,7 @@ include('../header.php');
                 </span>
             </div>
             <div class="next-button-container">
-                <button onclick="handleNextQuestion()">Pertanyaan Selanjutnya</button>
+                <button onclick="handleNextQuestion()">Selanjutnya >> </button>
             </div>
 
         </div>
