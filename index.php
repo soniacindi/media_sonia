@@ -19,7 +19,8 @@ include('header.php');
 	</div>
 	<div class="col-lg-10 col-md-12">
 		<div class="kotakbab">
-			<div class="judulbab">MATERI BASIS DATA</div>
+			<div class="judulbab">
+			<img src="/media_sonia-main/image/logo_unesa.jpg" alt="logo" width="75" height="75" class="d-inline-block align-text-top"> MATERI BASIS DATA <img src="/media_sonia-main/image/logo_smk.png" alt="logo" width="180" height="75" class="d-inline-block align-text-top"> </div>
 			<div class="square row">
       	<div class="col-md-6 col-sm-12">
 					<div class="item-materi" onclick="location='/media_sonia-main/konten/bab1_konsepBasisData.php'">Konsep Basis Data</div>
